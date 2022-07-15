@@ -1,7 +1,7 @@
 {
   "name": "koa2-servertime",
   "description": "Koa2 middleware to add server time to response",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "types": "index.d.ts",
   "files": [
