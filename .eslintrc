@@ -1,0 +1,6 @@
+{
+  "extends": ["@m9ch/all"],
+  "rules": {
+    "prefer-arrow-callback": "off"
+  }
+}

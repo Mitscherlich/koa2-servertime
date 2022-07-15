@@ -1,0 +1,32 @@
+{
+  "name": "koa2-servertime",
+  "description": "Koa2 middleware to add server time to response",
+  "version": "0.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "utils.js"
+  ],
+  "author": "Mitscherlich <mitscherlich36@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Mitscherlich/koa2-servertime#readme",
+  "scripts": {
+    "release": "bumpp package.json --commit --push --tag && pnpm publish --access public"
+  },
+  "dependencies": {
+    "servertime": "^3.1.1"
+  },
+  "devDependencies": {
+    "@m9ch/eslint-config-all": "^0.2.3",
+    "@types/koa": "^2.13.5",
+    "bumpp": "^8.2.1",
+    "eslint": "^8.19.0",
+    "koa": "^2.13.4",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "koa": "^2.11.0"
+  }
+}
