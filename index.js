@@ -28,7 +28,7 @@ module.exports = function (opts) {
       timer.start(userOpts.totalName, userOpts.totalDesc)
 
     setCurrentTimer(timer)
-    return next().then(function () {
+    return next().finally(function () {
       setCurrentTimer(null)
 
       if (userOpts.total)
